@@ -29,7 +29,7 @@ function Contact() {
 
       {/* form */}
       <div className="max-w-5xl mx-auto py-16  ">
-        <h2 className="text-2xl font-semibold text-center  mb-16">
+        <h2 className="text-2xl font-semibold text-center ">
           Let's Send Us a Message Below
         </h2>
 
@@ -158,16 +158,16 @@ function Contact() {
       </div>
 
       {/* location map */}
-      <div className="flex flex-col items-center justify-center p-4">
-      <h2 className="text-xl font-semibold mb-2">South Ganesh Nagar, Delhi</h2>
+      <div className="flex flex-col items-center justify-center py-8 ">
+      <h2 className="text-2xl font-bold  py-10">It Web Tech Solution</h2>
       <div className="w-full  h-[400px] overflow-hidden rounded-lg shadow-lg">
-        <iframe
-          className="w-full h-full border-0 rounded-lg"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1757.2819622293625!2d77.29190697838849!3d28.625853583589798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce39628786f23%3A0x6dfcbeb6ecdf9b9a!2sSouth%20Ganesh%20Nagar%2C%20Delhi!5e0!3m2!1sen!2sin!4v1711545624791!5m2!1sen!2sin"
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <iframe
+        className="w-full h-full border-0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1135.3938912994637!2d83.9696826!3d26.796112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39939308cfa3478f%3A0x87b8b05648ac522d!2sIT%20Web%20Tech%20Solution!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
       </div>
     </div>
     </div>

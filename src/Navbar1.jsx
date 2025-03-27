@@ -136,7 +136,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu Icon */}
-            <div className="lg:hidden">
+            <div className="lg:hidden px-2">
               {mobileMenuOpen ? (
                 <FiX
                   className="text-3xl cursor-pointer"
